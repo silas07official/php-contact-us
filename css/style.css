@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #efefef;
+    color: #777;
+}
+.col-md-6{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+ h2{
+    text-align: center;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+    background: #efefef;
+}
+hr{
+    background: #5cb85c;
+    height: 3px;
+    width: 100px;
+    margin: 10px auto 5px;
+}
+.contact-form{
+    padding: 15px;
+}
+.contact-form .btn{
+    font-weight: bold;
+}
+.form-control{
+    border-radius: 0!important;
+    border: none!important;
+}
+.status{
+    font-size: 15px;
+    color: #5cb85c;
+    padding: 15px;
+}
+
