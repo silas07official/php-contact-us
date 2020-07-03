@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/all.css">
+    <title>PHP Mailer </title>
+</head>
+<body>
+    
+        <div class="container">
+          
+          <div class="row justify-content-center">
+            <div class="col-md-6">
+              <h2>Get In Touch</h2>
+          <hr>
+              <form action="mailer_script.php" class="contact-form" method="POST">
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder=" Your Name" required name="name">
+                </div>
+                <div class="form-group">
+                  <input type="text" class="form-control" placeholder=" Phone No" required name="phone">
+                </div>
+                <div class="form-group">
+                  <input type="email" class="form-control" placeholder=" Email Id" required name="email">
+                </div>
+                <div class="form-group">
+                  <textarea type="text" name="message" rows="4" class="form-control" placeholder=" Message" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-success">Send Message</button>
+              </form>
+              <div class="status">
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      <script src="./js/jquery.slim.min.js"></script>
+      <script src="./js/popper.min.js"></script>
+      <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
